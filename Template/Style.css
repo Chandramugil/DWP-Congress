@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DWP Congress Email Campaign</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #F5F5F5, #E3E3E3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Centered Container */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 20px auto;
+        }
+
+        /* Glassmorphism Header */
+        .header {
+            width: 80%;
+            max-width: 750px;
+            text-align: center;
+            padding: 40px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            color: #162A49;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .header img {
+            max-width: 160px;
+        }
+
+        /* Headings with Navy & Red */
+        h1 {
+            color: #1B3B6F;
+        }
+        h2 {
+            color: #9E1B32; /* Deep Maroon */
+        }
+        h3 {
+            color: #1B3B6F;
+        }
+
+        /* Speakers Section */
+        .speakers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .speaker {
+            width: 45%;
+            max-width: 250px;
+            text-align: center;
+            padding: 15px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(5px);
+        }
+
+        .speaker img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #C4A484;
+        }
+
+        /* Sponsors */
+        .sponsor-logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .sponsor-logos img {
+            max-width: 120px;
+            height: auto;
+        }
+
+        /* Register Button in Deep Maroon */
+        .register {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .register a {
+            background-color: #9E1B32; /* Maroon Button */
+            color: #ffffff;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+
+        /* Glassmorphism Footer */
+        .footer {
+            width: 80%;
+            max-width: 750px;
+            text-align: center;
+            padding: 30px;
+            margin: 20px auto;
+            background: rgba(158, 27, 50, 0.2); /* Soft Maroon Tint */
+            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            color: #1B3B6F;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Social Media Icons */
+        .social-icons img {
+            width: 28px;
+            margin: 5px;
+            filter: brightness(0) saturate(100%) invert(18%) sepia(42%) saturate(538%) hue-rotate(350deg) brightness(85%) contrast(90%);
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .speaker {
+                width: 100%;
+            }
+            .header, .footer, .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header with Glass Effect -->
+<div class="header">
+    <img src="logo.png" alt="DWP Congress Logo">
+    <h1>DWP Congress</h1>
+    <p><strong>Date:</strong> 27th - 29th September</p>
+    <p><strong>Location:</strong> Bali International Convention Centre, Indonesia</p>
+</div>
+
+<!-- Main Container -->
+<div class="container">
+    <!-- Content -->
+    <div class="content">
+        <h2>Dear Client,</h2>
+        <p>Hope you’re having a wonderful time!</p>
+        <p>DWP Congress is all set to bring together 500 destination wedding connoisseurs from more than 70 countries to the breathtaking Island of Gods, Bali.</p>
+    </div>
+
+    <!-- Speakers -->
+    <h2>Meet Our Speakers</h2>
+    <div class="speakers">
+        <div class="speaker">
+            <img src="pic1.jpg" alt="Speaker">
+            <p><strong>Berry Lumpkins</strong></p>
+        </div>
+        <div class="speaker">
+            <img src="pic2.jpg" alt="Speaker">
+            <p><strong>Berry Lumpkins</strong></p>
+        </div>
+    </div>
+
+    <!-- Sponsors -->
+    <h2>2022 Sponsors and Partners</h2>
+    <div class="sponsor-logos">
+        <img src="sponsor1.png" alt="Sponsor">
+        <img src="sponsor2.png" alt="Sponsor">
+    </div>
+
+    <!-- Register Section -->
+    <div class="register">
+        <h3>Are you ready to join them this September in Bali?</h3>
+        <a href="https://www.dwpcongress.com/register" target="_blank">Register Your Interest NOW!</a>
+    </div>
+</div>
+
+<!-- Footer with Glass Effect -->
+<div class="footer">
+    <p>Kind Regards,</p>
+    <p><strong>Nancy Jones | Marketing Manager</strong></p>
+    <p>Tel: +971 4388 5545 | Email: <a href="mailto:nancy.jones@dwpcongress.net">nancy.jones@dwpcongress.net</a></p>
+    <p>Web: <a href="https://www.dwpcongress.com">www.dwpcongress.com</a></p>
+    <div class="social-icons">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+    </div>
+</div>
+
+</body>
+</html>
